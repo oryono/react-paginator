@@ -11,7 +11,7 @@ npm install @oryono/react-paginator --save
 
 ## Usage
 
-```
+```js
 import Paginator from '@oryono/react-paginator'
 import React, { Component } from 'react'
 import getUsers from './actions'
@@ -38,11 +38,9 @@ class ComponentName extends Component {
     }
                 
 }
+```
 
-
-
-
-### Thats it
+## That's it.
 
 
 
