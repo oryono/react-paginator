@@ -24,12 +24,12 @@ class ComponentName extends Component {
     render () {
         return (
             <React.Fragment>
-                  <Users/>
+                  <Users />
                   <Paginator
-                      totalCount={50} <!--This is the total number of items-->
-                      currentPage={1} <!--Current page as from the api-->
-                      pageSize={10} <!-- Page size -->
-                      onPageChange={ this.handlePageChange } <!-- This is what happens when a page is clicked-->
+                      totalCount={50}  /*This is the total number of items */
+                      currentPage={1} /* Current page as from the api */
+                      pageSize={10} /* Page size */
+                      onPageChange={ this.handlePageChange } /* This is what happens when a page is clicked */
                   />
             </React.Fragment>
 
