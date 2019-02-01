@@ -6,6 +6,7 @@
   "peerDependencies": {
     "react": "^15.5.4"
   },
+  "homepage": "https://github.com/oryono/react-paginator#readme",
   "dependencies": {
     "lodash": "^4.17.11",
     "prop-types": "^15.6.2",
@@ -16,6 +17,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack"
+  },
+  "bugs": {
+    "url": "https://github.com/oryono/react-paginator/issues",
+    "email": "patricken08@gmail.com"
   },
   "author": {
     "name": "Patrick Oryono",
