@@ -41,6 +41,7 @@ class ComponentName extends Component {
 ```
 
 ## That's it.
+You should consider contributing to this noble cause 😜
 
 
 
