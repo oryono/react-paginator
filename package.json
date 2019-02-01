@@ -1,6 +1,6 @@
 {
   "name": "@oryono/react-paginator",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Paginator for react.js",
   "main": "./build/index.js",
   "peerDependencies": {
