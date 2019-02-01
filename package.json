@@ -18,6 +18,9 @@
     "start": "webpack --watch",
     "build": "webpack"
   },
+  "licence": {
+    "licence": "MIT"
+  },
   "bugs": {
     "url": "https://github.com/oryono/react-paginator/issues",
     "email": "patricken08@gmail.com"
