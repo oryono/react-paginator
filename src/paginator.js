@@ -1,20 +1,20 @@
-import React from 'react'
-import _ from 'lodash'
+import React from "react";
+import _ from "lodash";
+import PropTypes from "prop-types";
 
-const Paginator = (props) => {
-  const {currentPage, totalCount, onPageChange, pageSize} = props
-  console.log(totalCount)
+const Paginator = props => {
+  const { currentPage, totalCount, onPageChange, pageSize } = props;
+  console.log(totalCount);
 
-  let pagesCount = Math.ceil(totalCount / pageSize)
-  if (pagesCount === 1) return null
-  let pages = _.range(1, pagesCount + 1)
-  console.log('pages ', pages)
+  let pagesCount = Math.ceil(totalCount / pageSize);
+  if (pagesCount === 1) return null;
+  let pages = _.range(1, pagesCount + 1);
+  console.log("pages ", pages);
 
-
-  return <nav aria-label="Page navigation example">
-    <ul className="pagination">
-      {
-        pages.map(page => (
+  return (
+    <nav aria-label="Page navigation example">
+      <ul className="pagination">
+        {pages.map(page => (
           <li
             className={currentPage === page ? "page-item active" : "page-item"}
             key={page}
@@ -23,11 +23,17 @@ const Paginator = (props) => {
               {page}
             </a>
           </li>
-        ))
-      }
+        ))}
+      </ul>
+    </nav>
+  );
+};
 
-    </ul>
-  </nav>
-}
+Paginator.propTypes = {
+  currentPage: PropTypes.number.isRequired,
+  totalCount: PropTypes.number.isRequired,
+  onPageChange: PropTypes.func.isRequired,
+  pageSize: PropTypes.number.isRequired
+};
 
-export default Paginator
+export default Paginator;
