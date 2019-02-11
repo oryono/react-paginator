@@ -1,6 +1,11 @@
-## react-paginator ![npm version](https://img.shields.io/npm/v/@oryono/react-paginator.svg?style=flat)
+<h3 align="center">React Paginator</h3>
 
-The way you use it is similar to Laravel's paginator.
+<p align="center">
+<a href="https://www.npmjs.com/package/@oryono/react-paginator"><img src="https://img.shields.io/npm/v/@oryono/react-paginator.svg" alt="NPM"></a>
+<a href="https://www.npmjs.com/package/@oryono/react-paginator?minimal=true"><img src="https://img.shields.io/npm/dt/@oryono/react-paginator.svg" alt="NPM"></a>
+<a href="https://www.npmjs.com/package/@oryono/react-paginator"><img src="https://img.shields.io/npm/l/@oryono/react-paginator.svg" alt="NPM"></a>
+</p>
+
 
 ## Installation
 
